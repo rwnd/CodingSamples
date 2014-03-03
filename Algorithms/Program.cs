@@ -10,6 +10,10 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
+            Combinatorics obj = new Combinatorics();
+            int[] array = new int[] { 1, 2, 3, 4, 5};
+            obj.Permute(array);
+            obj.Combine(array);
         }
     }
 }
